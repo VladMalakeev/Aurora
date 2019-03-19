@@ -1,0 +1,45 @@
+#payForm{
+    padding: 25px 50px;
+    text-align: center;
+}
+
+#currency{
+    font-size: 22px;
+}
+
+#price{
+    background: white;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+
+#payBtn{
+    font-size: 30px;
+    padding: 5px 50px;
+    background: #38cd4e;
+    color: white;
+    font-weight: bold;border-radius: 10px;
+    transition: 1.2s;
+    margin: 30px 0px;
+}
+#payBtn:hover{
+    background: #009c00;
+}
+#payBtn:focus{
+    outline: none;
+}
+
+.pay_systems{
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.pay_systems td{
+    width: 25%;
+}
+.pay_systems p{
+    color: rgba(0, 0, 0, 0.67);
+    font-weight: bold;
+}

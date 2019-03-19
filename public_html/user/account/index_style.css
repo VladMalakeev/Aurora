@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+#wrap{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url("../img/user_bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#headerBlock {
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    background: white;
+    z-index: 2;
+    box-shadow: 2px 0 3px #000000a6;
+}
+#headerBlock h2{
+    margin: 10px auto;
+}
+
+#mainContent{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 65px;
+}
+
+#leftBar{
+    width: 20%;
+    min_height: 100%;
+    background: #ffffffde;
+    box-shadow: 0px 0px 2px #00000080;
+    z-index: 1;
+}
+#menu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+    list-style: none;
+    width: 20%;
+}
+#menu li{
+    margin-bottom: 20px;
+    padding: 0px;
+
+}
+#menu li:hover{
+    background: #0000000d;
+}
+#menu a{
+    color: rgba(0, 0, 0, 0.66);
+    text-align: left;
+    padding: 5px;
+    display: block;
+}
+#menu a:hover{
+    color: black;
+    text-decoration: none;
+}
+#rightBar{
+    width: 80%;
+    min_height: 100%;
+}
+
+.contentBlock{
+    padding: 10px 25px;
+    background: #ffffffe3;
+    box-shadow: 0 0 6px 0px black;
+    margin: 80px 100px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.contentBlock h1, h2, h3, h4, h5, h6{
+    margin: 5px;
+    color: #524e4e;
+    font-family: inherit;
+}
+
+#exit{
+position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+#exit:hover{
+    text-decoration: none;
+    background: #0000000d;
+    color: black;
+}
+#exit span{
+    margin: auto 10px;
+    font-size: 16px;
+}
+
+#globalMassage{
+    color: #fef6ff;
+    position: fixed;
+    width: 80%;
+    text-align: center;
+    top: 10vh;
+    background: rgba(144, 200, 67, 0.62);
+    padding: 10px 25px;
+    font-size: 22px;
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+    display:none;
+}
+.courses_link{
+    display: flex;
+    list-style: none;
+    background: #fffffff5;
+    padding: 5px 15px;
+    box-shadow: 1px 0 2px 0px #00000047;
+    position: fixed;
+    width: 80%;
+    z-index: 1;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.courses_link li{
+    border-right: 2px solid #82bcff;
+    padding: 0 10px;
+}
+.courses_link li:last-child{
+    border: none;
+}
+.courses_link li:first-child{
+    border: none;
+}
+
+.dropdown-toggle,btn-group{
+    padding: 0px 5px;
+    width: 100%;
+}
+
+.dropdown-item{
+    padding: 0 10px;
+}
+.humburger{
+    margin: 10px;
+    position: absolute;
+    margin: 15px;
+    left: 0;
+    top: 0;
+    padding: 3px;
+    display: none;
+}
+.humburger:hover{
+    background: whitesmoke;
+    border: 1px solid #6285ff;
+    border-radius: 5px;
+}

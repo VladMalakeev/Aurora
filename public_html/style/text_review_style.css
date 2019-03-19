@@ -1,0 +1,39 @@
+#text_reviews_block{
+    padding:1% 2%;
+    background: #e2e2e257;
+    margin: 25px 0 50px 0;
+    box-shadow: 0 0 4px -1px black;
+}
+
+.single_review{
+    display: flex;
+    padding: 25px 25px 10px 25px;
+    box-shadow: 0 0 3px 0px #000000d1;
+    margin: 50px 50px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+.review_photo {
+    padding: 2%;
+}
+.review_photo img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    box-shadow: 0 0 3px black;
+}
+
+.review_text{
+
+}
+
+.review_people_name{
+    padding: 0 25px;
+}
+
+.review_people_text{
+ text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 0 25px;
+}

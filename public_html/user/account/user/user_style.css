@@ -1,0 +1,47 @@
+.flex_row{
+    display:flex ;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pass_tem{
+    text-align: center;
+}
+.userSettings{
+    padding:10px 50px;
+    margin: auto;
+}
+input{
+    margin: 10px 0px;
+}
+
+button{
+    margin: 10px 15px;
+}
+
+.name_left{
+    border-right: none;
+}
+
+.name_right{
+    border-left: none;
+}
+
+#btn_save_password{
+    margin: 10px auto;
+}
+h6{
+    margin: 5px;
+    padding: 0px;
+}
+
+.input_error{
+    position: absolute;
+    color: red;
+    margin: 12px;
+}

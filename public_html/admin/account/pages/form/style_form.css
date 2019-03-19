@@ -1,0 +1,44 @@
+#btnClear{
+    display: none;
+}
+#btnSave{
+    display: none;
+}
+
+#form{
+    background: white;
+    box-shadow: 0 0 3px 0px black;
+    width: 95%;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+#form tr{
+    border-bottom: 1px solid #666666;
+}
+#form tr:last-of-type{
+    border: none;
+}
+
+#form td{
+padding: 5px 10px;
+    text-align: center;
+}
+#form textarea{
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 3px -1px black;
+    margin: 10px 5px;
+    color: #545050;
+    padding: 10px;
+}
+
+#form th{
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #666666;
+}
+
+#long{
+    width: 60%;
+}

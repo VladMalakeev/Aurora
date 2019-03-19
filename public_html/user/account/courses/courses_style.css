@@ -1,0 +1,87 @@
+.course_description{
+    position: relative;
+}
+
+.description_text{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+#course_img{
+    width: 100%;
+    height: 90vh;
+    box-shadow: 0 0 4px 1px black;
+}
+
+.course_description h4{
+    color: #6099d8;
+    margin: 15px;
+}
+
+.subscribe{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.subscribe_view{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.viewCourse{
+    text-align: center;
+    margin: 15px;
+}
+
+.viewCourse a{
+    background: #bbcbff;
+    padding: 4px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.viewCourse a:hover{
+    text-decoration: none;
+    background: #007cba;
+}
+
+.new_subscribe{
+    background: #26bf3f;
+    padding: 4px 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 1s;
+    margin: 15px;
+}
+.new_subscribe:hover{
+    text-decoration: none;
+    background: #19a330;
+    cursor: pointer;
+}
+.landing_page{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}

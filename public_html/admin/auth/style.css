@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: inline-block;
+
+    background: url("/img/admin.png");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    background-position: center ;
+    font-size: 22px;
+    font-weight: bold; ;
+}
+table{
+    padding: 25px;
+    background: rgba(193, 167, 67, 0.32);
+    box-shadow: 0 0 3px black;
+    border-radius: 15px;
+    color: #5a5757;
+    font-family: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    margin: 10px 20px;
+    font-size: 16px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.88);
+    text-align: center;
+    color:black;
+}
+
+#regBtn{
+    margin: 10px 20px;
+    font-size: 16px;
+    padding: 5px;
+    background: rgba(104, 171, 230, 0.89);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+#regBtn:hover{
+    background: rgba(74, 143, 230, 0.96);
+    cursor: pointer;
+}
+.errors{
+    color: rgba(255, 0, 0, 0.68);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px 25px;
+    background: rgba(25, 163, 48, 0.29);
+    list-style: none;
+}

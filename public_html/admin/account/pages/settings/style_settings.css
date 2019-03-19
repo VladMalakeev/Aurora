@@ -1,0 +1,116 @@
+
+.back{
+    left: 5px;
+    position: absolute;
+    margin: 5px;
+    text-decoration: none;
+}
+#main_block{
+    height: 600px;
+    box-shadow: 0 0 4px 0px #636161;
+    margin: 15px 0;
+}
+
+#main_text{
+    text-align: center;
+    margin: 30px auto;
+
+}
+#main_text input{
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+}
+#main_description textarea{
+    text-shadow: 2px 2px 3px black;
+}
+#main_photo{
+    align-self: center;
+}
+
+.cardWrap{
+    padding: 10px;
+    background: #d3d3d338;
+    margin: 20px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 3px -1px black;
+}
+
+.card{
+    border: 1px solid black;
+    margin: 15px;
+    background: #f0f0f0;
+    background-size: cover;
+}
+.cardDescription{
+    width: 100%;
+    height: 400px;
+}
+#video{
+    padding: 0px;
+}
+
+#video li{
+    list-style: none;
+    text-align: center;
+}
+
+#video iframe{
+    background: #444242;
+    padding: 10px;
+}
+#cke_editor1{
+    height: 100%;
+}
+#cke_1_contents{
+    height: 100%;
+}
+#form_video{
+    text-align: center;
+}
+
+.inputCost{
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 15px auto;
+    background: rgba(234, 233, 233, 0.21);
+    box-shadow: 0 0 3px -1px black;
+    border: none;
+    text-align: center;
+}
+
+.single_review{
+    display: flex;
+    padding: 25px 25px 10px 25px;
+    box-shadow: 0 0 3px 0px #000000d1;
+    margin: 20px 50px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+.review_photo {
+    padding: 0 2% 2% 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.review_photo img{
+    height: 130px;
+    width: 130px;
+    border-radius:50%;
+    box-shadow: 0 0 3px black;
+    margin: auto;
+}
+
+.review_photo input{
+    width: 100%;
+    bottom: 0;
+}
+
+.review_text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.review_text input{
+    margin: 10px 0;
+}

@@ -1,0 +1,54 @@
+@media (max-device-width  : 1366px) {
+
+}
+
+@media (max-device-width  : 1024px) {
+    .contentBlock{
+        margin: 40px 10px;
+    }
+}
+
+@media (max-device-width : 768px){
+    #leftBar{
+        display: none;
+    }
+    #rightBar{
+        width: 100%;
+    }
+    .courses_link{
+        width: 100%;
+    }
+    .humburger{
+        display: block;
+    }
+}
+
+@media (max-device-width  : 480px) {
+    #leftBar{
+        display: none;
+    }
+    #rightBar{
+        width: 100%;
+    }
+    .courses_link{
+        width: 100%;
+    }
+    .humburger{
+        display: block;
+    }
+}
+
+@media (max-device-width  : 320px) {
+    #leftBar{
+        display: none;
+    }
+    #rightBar{
+        width: 100%;
+    }
+    .courses_link{
+        width: 100%;
+    }
+    .humburger{
+        display: block;
+    }
+}

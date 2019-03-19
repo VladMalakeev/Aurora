@@ -1,0 +1,231 @@
+body{
+    background: white;
+    padding-bottom: 10px;
+}
+
+#wrap{
+    margin: 20px auto;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    height: 90vh;
+}
+
+.form table{
+    margin:auto;
+    padding: 10px;
+}
+
+#authTable{
+    background: #fdf14f7a;
+    padding: 25px;
+    box-shadow: 0 0 3px black;
+    display: inline-block;
+}
+
+input{
+    background: #ffffff;
+    width: 100%;
+    box-shadow: 0 0 3px -1 black;
+}
+
+#buttons{
+    text-align: right;
+}
+.btn{
+    display: inline-block;
+    color: #3c668a;
+    text-decoration: none;
+    margin: 10px;
+    background: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px #000000;
+}
+.btn:hover{
+    text-decoration: underline;
+    color: #0135fde6;
+    background: #eaddecf5;
+}
+
+td{
+    text-align: left;
+    position: relative;
+}
+#regBtn{
+    margin: 15px auto 0px auto;
+    background: #CCCCCC;
+    color: #000000bd;
+    box-shadow: 0 0 3px black;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 80%;
+}
+#regBtn:disabled:disabled{
+    background: #f1f1f1;
+    color: #999999;
+    text-shadow: none;
+}
+#regBtn:hover{
+    background: #3b7db5;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+#checkRules{
+    height: 15px;
+    width: 15px;
+}
+.error input{
+    border: 2px solid red;
+}
+
+.error input:focus{
+    border: none;
+}
+
+.error-message {
+    color: #ff00009e;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.errors{
+    color: red;
+    font-weight: bold;
+    padding: 15px;
+    background: rgba(255,255,255,0.7);
+    list-style: none;
+}
+.success{
+    color: green;
+    font-weight: bold;
+    padding: 15px;
+    background: rgba(255,255,255,0.7);
+}
+label{
+    color: #000000a8;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-family: inherit;
+}
+.cbalink{
+    display: none;
+}
+#adout_course{
+    margin: 0 auto;
+}
+
+#adout_course h1{
+    font-size: 46px;
+    color: #960915c7;
+    text-shadow: 3px 5px 10px rgba(101, 99, 99, 0.84), 0 0 3px white;
+    font-weight: bold;
+    background: #ffffff75;
+    border-radius: 10px;
+}
+
+#adout_course h2{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 50px 0;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.65);
+    background: #551a8b91;
+    padding: 10px;
+    font-family: cursive;
+    box-shadow: 8px 8px 12px 0px #a5a2a2, 0 0 3px -1px black;
+}
+#cost{
+    color: #fdf14f;
+    text-shadow: 3px 3px 7px black, -1px -1px 4px #dedddd;
+    font-size: 30px;
+    font-size: 36px;
+}
+#describe_info{
+    margin-bottom: 10px;
+}
+#describe_info p {
+    padding: 5px 50px;
+    margin: 10px 0 0 5px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+    color: steelblue;
+    font-style: normal;
+    font-family: initial;
+}
+#main_info{
+    padding: 10px 20px 30px 20px;
+    background: url(/img/bg.jpg);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 0 3px -1px black;
+    position: relative;
+    background-size: cover;
+    background-position-y: center;
+    flex-wrap: wrap;
+}
+#login{
+    width: 500px;
+    min-height: 390px;
+    margin: 5px auto;
+}
+#login_block{
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    box-shadow: 0 0 3px -1px black;
+    padding: 10px;
+}
+#logo{
+    font-family: 'Marck Script', cursive;
+    position: absolute;
+    left: 20px;
+    bottom:4px;
+    font-size: 28px;
+}
+@media screen and (max-width: 1273px){
+    #login_block{
+        float: none;
+        margin: auto;
+    }
+    #buttons{
+        text-align: center;
+    }
+    #login{
+        margin: 40px auto;
+
+    }
+}
+.blue_button{
+    margin: 5px;
+}
+
+#payInfoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(122, 161, 206, 0.2);
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+#payInfoFooter img{
+    margin:5px 15px;
+}
